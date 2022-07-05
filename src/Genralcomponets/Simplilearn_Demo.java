@@ -5,6 +5,7 @@ import java.util.Set;
 import org.openqa.selenium.*;
 
 public class Simplilearn_Demo extends basic_setup {
+	String Simplilearn = "https://www.simplilearn.com/";
 	String er_nw = "Online Selenium Certification | Selenium Training | Selenium Course";
 	String er_pw = "Search Simplilearn Online Courses - #1 Certification Bootcamp";
 	String ar_nw = null;

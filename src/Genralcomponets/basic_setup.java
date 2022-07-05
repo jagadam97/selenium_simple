@@ -9,7 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class basic_setup
 {
-	String Simplilearn = "https://www.simplilearn.com/";
 	WebDriver driver;
 	//Drivers set Property and Switching Drivers
 	public void Firefox()
