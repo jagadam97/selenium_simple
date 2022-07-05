@@ -13,7 +13,7 @@ public class Firsttest {
 		//FirefoxDriver driver = new FirefoxDriver();// Invokes only firefox browser
 		
 		WebDriver driver = new FirefoxDriver();//invokes browser but driver assingment can be changed to any browser
-		
+		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/test/newtours/");
 		
 		driver.findElement(By.name("userName")).sendKeys("mercury");
