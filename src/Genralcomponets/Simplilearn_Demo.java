@@ -25,7 +25,9 @@ public class Simplilearn_Demo extends basic_setup {
 		Thread.sleep(2000);
 		try
 		{
+			
 		driver.findElement(By.xpath("//h2[contains(text(),'Selenium 3.0 Training')]")).click();
+		
 		}
 		catch(Exception e)
 		{
