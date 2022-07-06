@@ -12,6 +12,7 @@ public class Simplilearn_Demo extends basic_setup {
 	String ar_pw = null;
 	public void openweb()
 	{
+		driver.manage().window().minimize();
 		driver.get(Simplilearn);
 		driver.manage().window().maximize();
 	}
